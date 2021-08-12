@@ -2,3 +2,8 @@
 font-family: 'Cabin', sans-serif;
 font-family: 'Old Standard TT', serif;
 font-family: 'Playfair Display SC', serif; */
+
+h1 {
+  font-size: 2em;
+  font-family: "Cabin", sans-serif;
+}
