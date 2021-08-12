@@ -3,16 +3,91 @@ font-family: 'Cabin', sans-serif;
 font-family: 'Old Standard TT', serif;
 font-family: 'Playfair Display SC', serif; */
 
-h1 {
-  font-size: 2em;
+/* universals */
+body {
   font-family: "Cabin", sans-serif;
 }
 
+h1 {
+  font-size: 3em;
+  margin-left: 10px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 35px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .container {
-  border: 2px solid #0707b9;
+  border: 2px solid black;
+  height: auto;
+  margin: 10px;
   padding: 10px;
-  margin: 10px auto;
+  position: relative;
+  width: 95%;
+}
+
+/* colors section */
+.color-container {
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+  height: auto;
+  width: 100%;
 }
 
 .color-panel {
+  display: inline-block;
+  text-align: center;
+  margin: 5px 20px;
+  width: 20%;
+  height: 30%;
+}
+
+#whale-blue {
+  background-color: #1d3c45;
+  color: white;
+}
+
+#texas-orange {
+  background-color: #d2601a;
+  color: white;
+}
+
+#peach-lite {
+  background-color: #fff1e1;
+}
+
+/* font section */
+
+.font-panel {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 100px;
+  height: 100px;
+  width: 40%;
+}
+
+.font-label {
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+p {
+  font-size: 17px;
+}
+
+#cabin {
+  font-family: "Cabin", sans-serif;
+}
+
+#playfair-display-sc {
+  font-family: "Playfair Display SC", serif;
+}
+
+#old-standard-tt {
+  font-family: "Old Standard TT", serif;
 }
