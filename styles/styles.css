@@ -1,10 +1,4 @@
-/* font family rules to use
-font-family: 'Cabin', sans-serif;
-font-family: 'Old Standard TT', serif;
-font-family: 'Playfair Display SC', serif; */
-
-/* universals */
-body {
+* {
   font-family: "Cabin", sans-serif;
 }
 
@@ -109,4 +103,39 @@ p {
 .text-type {
   text-align: left;
   margin: 0;
+}
+
+/* logos & button section */
+
+.logo-button-container {
+  text-align: center;
+  height: 150px;
+  width: 100%;
+}
+
+.logo-button-panel {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+  height: 50px;
+  width: 20%;
+}
+
+img {
+  position: relative;
+  top: 15px;
+}
+
+#button {
+  background-color: #d2601a;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  padding: 12px 30px;
+  transition-duration: 0.4s;
+}
+
+#button:hover {
+  background-color: #df8f5e;
+  color: white;
 }
